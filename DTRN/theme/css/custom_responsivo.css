@@ -1,0 +1,783 @@
+/***********************/
+/***** Responsivo ******/
+/***********************/
+
+@media (max-width: 530px) {
+	.boxLinkTop {
+	    width: 100%;
+	    padding: 0 0px;
+	    font-size: 13px;
+	}
+
+	#header #logo {
+	    background-size: 100% auto;
+	}	
+}
+
+/*Media extra*/
+@media (min-width: 651px) and (max-width: 769px) {
+
+	#nav_main ul {
+		padding: 0 0 0 12% !important;
+	}
+}
+
+@media (min-width: 941px) {
+
+	.box-facebook{
+	    min-height: 290px;
+	}
+
+	.introjs-tooltip {
+	    right: 350px;
+    }
+}
+
+@media (max-width: 940px) {
+
+ 	/*Barra Gov Topo*/
+	#barrasp_global {
+		min-width: 100% !important;
+		float: left !important;
+		background-position: left bottom !important;
+	}
+
+ 	.menuGovOn {
+		content: "";
+		display: inline-block;
+		vertical-align: middle;
+		margin: 17px 0 0 5px;
+		width: 18px;
+		height: 18px;
+		background: url(/DTRN/theme/imagens/menu_on.png) no-repeat;
+		position: absolute;
+		left: 2%;
+		top: 16px;
+	}
+
+	.menuOff {
+		background: #fff url(/DTRN/theme/imagens/menu_off.png) no-repeat;
+	}
+
+	h1#barrasp_logo {
+		position: relative !important;
+		top: -5px !important;
+	}
+
+	#barrasp_nav form {
+		width: 84% !important;
+		margin: 10px 0 0 10% !important;
+	}
+
+	#barrasp_nav form fieldset {
+		padding: 3px 0 !important;
+	}
+
+	#barrasp_nav form fieldset select {
+		font-size: 15px !important;
+		width: 84% !important;
+		margin-right: 5px !important;
+		margin: 6px 4px 20px 0 !important;
+		padding: 6px 0 !important;
+	}
+
+
+
+	#barrasp_nav form input.inputSubmit {
+		width: 34px !important;
+		height: 34px !important;
+		padding: 1px !important;
+		font-size: 14px !important;
+	}
+
+	#barrasp_nav ul {
+		width: 80% !important;
+		margin: 0 auto !important;
+		float: none !important;
+	}
+
+	#barrasp_nav ul, #barrasp_nav fieldset {
+		display: none;
+	}
+
+	#barrasp_nav ul li {
+		list-style: none !important;
+		float: left !important;
+		width: 100% !important;
+	}
+
+	#barrasp_nav ul li a {
+		font-size: 13px !important;
+		border-right: none !important;
+		border-bottom: 1px solid #ccc !important;
+		width: 95% !important;
+		padding: 7px 10px !important;
+	}
+
+	#barrasp_nav {
+		width: 100% !important;
+		height: 100% !important;
+	}
+
+	.wpthemeMedium .component-control .wpthemeOverflowAuto{
+		width: 100%;
+	}
+
+	/*Login*/
+
+	.remodal {
+	    width: 100% !important;
+	}
+
+
+	.containerLoginModal {
+	    width: 100% !important;
+	}
+
+	.boxLoginFaceModal {
+	    width: 100% !important;
+	    text-align: center !important;
+	    margin: 5px 0 0 -15px !important;
+	}
+
+	.loginNativo {
+	    margin-left: -15px !important;
+	}
+
+	.cadastroNativoModal {
+	    margin-left: -15px !important;
+	}
+
+	.loginFace, .loginNativo, .cadastroNativoModal, .containerCpfModal {
+		width: 100% !important;
+	    float: none !important;
+        margin-left: 0;
+        height: auto !important;
+        padding-bottom: 25px !important;
+    }
+
+    .loginResponsivo,
+    .cpfPerguntasModal {
+	    width: 100% !important;
+	}
+
+	.imgLoginFace, .imgLoginNativo, .imgCadastro, .imgCPF {
+	    background-size: auto !important;
+	    background-position-x: center !important;
+	}
+
+	.loginResponsivo .loginFace, .loginFace.loginResponsivo {
+		max-width: 100% !important;
+		height: auto;
+	    background-color: #fff;
+	    float: none !important;
+	}
+
+	.loginResponsivo.social-login {
+	    padding: 14px 0 5px 5px;
+	}
+
+	.loginResponsivo .boxLoginFaceModal, .boxLoginFaceModal.loginResponsivo {
+	    width: auto;
+	    float: left;
+	    margin: 0;
+	    padding: 0 0 0 0;
+	}
+
+	.loginResponsivo .social-login, .social-login.loginResponsivo  {
+	    display: none;
+	}
+
+	.loginResponsivo .social-label, .social-label.loginResponsivo {
+	    display: none;
+	}
+
+	.loginResponsivo .loginNativo, .loginNativo.loginResponsivo {  
+		max-width: 100% !important; 	
+    	background-color: #fff;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .loginResponsivo .cadastroNativoModal, .cadastroNativoModal.loginResponsivo {
+    	max-width: 100% !important;
+	    background-color: #fff;
+	    height: auto;
+	}
+
+ 	[class*="span"] {
+	    margin-left: 0;
+	}
+
+	.headerLinks{
+		margin: 10px 0 30px 0 !important;
+	}
+
+	.boxLinkTop {
+	    position: absolute;
+	    left: 0;
+	    top: 25px;
+	    width: 75%;
+	    padding: 0 16px;
+	    line-height: 17px;
+	    font-size: 14px;
+	}
+
+	.iconesTop {
+		width: 100%;
+    	float: none;
+	    text-align: center;
+	}
+
+	.btn_top a {
+	    float: none;
+	    position: relative;
+	    padding: 12px 6%;
+	    margin: 0 0 0 10px !important;
+	}
+
+	.iconTop_log {
+	    float: none;
+	    display: inline-table;
+	}
+
+	.boxIconesTopo {
+	    margin: -3px 0 25px 0;
+	}
+
+	.acesse {
+	    margin: 0 0 15px 0;
+	}
+
+
+    .container {
+	    width: 100% !important;
+	}
+
+	#content p {
+	    font-size: 16px;
+	}
+
+	.bg_azul .span12 {
+	    max-width: 100% !important;
+	}
+
+	#header .span4, #header .span8 {
+		width: 100% !important;
+	}
+
+	#header #logo {
+	    width: 100% !important;
+	    height: 130px;
+	    background: url(/DTRN/theme/imagens/logo-m.png) no-repeat;
+	    /*background-size: auto auto;*/
+		background-size: contain;
+	    background-position: center center;
+	}
+
+	.input-append, .input-prepend {
+	    margin-bottom: 20px;
+	}
+
+	#busca {
+	    text-align: center;
+	}
+
+	.wpthemeTopCol .span8 {
+	    width: 100%  !important;
+	}
+
+	.containerCentro .span12 {
+	    width: 100% !important;
+	}
+
+	.wptheme3Col.wpthemeUnequal .wpthemePrimaryContainer {
+    	width: 100% !important;
+    }
+
+    .containerCentro .carousel-inner .item a img{
+    	width: 100% !important;
+    	height: 100% !important;
+    }
+
+    .linhaBranca {
+	    width: 99% !important;
+	}
+
+	.wpthemeComplementaryContent{
+		    display: inline-table;
+	}
+
+    /*Menu topo*/
+    .home #nav_main {
+	    margin-bottom: 0;
+	    padding: 2%;
+	    width: 96%;
+	}
+
+	#nav_main li a {
+	    background-position: 15px center !important;
+	}
+
+	#nav_main ul {
+	    width: auto;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+
+	#nav_main li {
+	    list-style-type: none;
+	    display: inline;
+	    display: inline-table;
+	    width: 35%;
+	}
+
+	p.mais a {
+    	font-size: 17px;
+    }
+
+	#header {
+	    width: 90%;
+	    margin: 0 auto;
+	}
+
+	#header .row {
+	    margin: 0;
+	}
+
+	#servicosOnline_rotativos {
+	    height: 125px;
+	}
+
+	#servicosOnline_rotativos div a {
+	    font-size: 14px;
+	    line-height: 18px;
+	}
+
+	.servico_banner_carrosel a img, .banner_carrosel a img {
+	    height: auto;
+	}
+
+	.box {
+		height: auto;
+		min-height: 300px;
+	    margin: 10px 3%;
+	}
+	
+	.box_alerta {
+		margin-top: 40px !important;
+	}
+
+	.boxServicoDestaqueTexto {
+	    width: 50%;
+	}
+	.component-control .boxServicoDestaque {
+	    width: 100%;
+	}
+
+	.noticias > ul > li:first-child {
+	    width: 100%;
+	}
+
+	.noticias > ul > li:first-child {
+	    height: auto;
+	}
+
+	.noticias span.categ {
+	    font-size: 16px;
+	}
+
+	.noticias li a.texto {
+	    font-size: 16px;
+	}
+
+	.carousel-inner {
+	    width: 100%;
+    	margin: 0 0;
+    	text-align: center;
+	}
+	
+	#servicosOnline_slick {
+		height: 140px;
+	}
+	
+	#servicosOnline_slick div a {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	#servicosOnline_slick .slick-arrow {
+		top: 40%;
+	}
+	
+	#circulos_rotativos {
+	    height: 160px;
+	}
+	
+	#circulos_rotativos div a {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	
+	#circulos_rotativos .slick-arrow {
+		top: 35%;
+	}
+
+	.containerCentro .row{
+		margin: 0;
+	}
+
+	.containerCentro .span4{
+    	width: 100%;
+	}
+
+	.box-facebook {
+	    width: auto;
+	    height: inherit !important;
+	    min-height: 200px;
+	    margin: 25px auto 0 auto;
+	    float: none;
+	    display: inherit;
+	    border: none !important;
+	    border-radius: 0;
+	}
+
+	#fb-root {
+	    display: none;
+	}
+
+	.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+	    width: 100% !important;
+	}
+
+	.videos .youtube {
+	    width: 93%;
+	    height: auto;
+	    min-height: 240px;
+	}
+
+	.enderecos ul li {
+	    font-size: 17px;
+	    margin-bottom: 13px;
+	}
+
+	#footer .social {
+	    float: none;
+	    text-align: center;
+	    margin: 0 0 0 3px;
+	}
+
+	#footer .social li {
+	    display: inline-block;
+	}
+
+	#footer .social li a {
+	    margin-left: 5px;
+	}
+
+	#footer .bg_azul {
+	    height: 180px;
+	}
+
+	#footer .bg-bandeira {
+	    height: 180px;
+	}
+	
+	#footer .links {
+		width: 98%;
+		bottom: 90px;
+		top: 40px;
+		padding: 20px 0 30px 0;
+    	margin: 0 0 10px 20px;
+		text-align: center;
+		position: absolute;
+	}
+	
+	#footer .logo-governosp {
+	    position: absolute;
+	    right: 0;
+	    bottom: 15px;
+	}
+
+	/*intro*/
+
+	.introjs-helperLayer {
+	    text-align: center;
+	}
+	
+	.introjs-tooltip {
+	    max-width: 300px !important;
+	    width: 300px !important;
+	    left: 50%;
+	    top: -130px;
+	    margin-left: -165px !important;
+	    margin-top: -71.5px !important;
+    }
+	
+	.barra-acessibilidade {
+		height: auto;
+		line-height: 22px;
+		background: rgb(221,221,221);
+		z-index: 4;
+		box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.20);
+		margin-top: 0px;
+	}
+	
+	.barra-acessibilidade-dir {
+		float: unset;	
+		text-align: right;
+	}
+}
+
+@media (min-width: 770px) and (max-width: 940px) {
+
+
+	#barrasp_nav form fieldset select {
+		width: 89% !important;
+	}
+
+	#nav_main ul {
+	    padding: 0 0 0 12%;
+	}
+
+	.component-control .boxServicoDestaque {
+	    width: 49%;	 
+	    margin: 0 0 0 1%;   
+	}
+
+	.wpthemeTopCol .span8 {
+	    width: 49% !important;
+	}
+
+	.noticias li a.texto {
+	    font-size: 15px;
+	    line-height: 18px;
+	}
+
+	.box {
+	    min-height: 335px;
+	}
+
+	.wptheme3Col.wpthemeTopCol .wpthemePrimaryContainer.wpthemeCol {
+	    margin-left: 0;
+	}
+
+	.box-facebook {
+	    width: 40%;
+	}
+
+	.containerCentro .span4 {
+	    width: 49%;
+	}
+
+	.box-facebook {
+	    width: 80%;
+	    margin: 25% 10%;
+	}
+
+	div#enderecos_intro {
+	    width: 100%;
+	}
+
+	#footer .links {
+    	width: 100%;
+    }
+
+    .bg_azul .span12 {
+	    max-width: 100% !important;
+	}
+		
+	.bx-wrapper {
+		height: 133px;
+		padding: 0px 6% 0 6%;
+		width: 88%;
+		margin: 0px 0 0 1%;
+	}
+	
+	.barra-acessibilidade {
+		height: auto;
+		line-height: 22px;
+		background: rgb(221,221,221);
+		z-index: 4;
+		box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.20);
+		margin-top: -10px;
+	}
+	
+	.barra-acessibilidade-dir {
+		float: unset;	
+		text-align: right;
+	}
+	
+}
+	
+/*Media extra*/
+@media (min-width: 494px) and (max-width: 650px) {
+	#nav_main ul {
+		width: 50%;
+		padding: 0 0 0 4%;
+	}
+
+	#barrasp_nav form fieldset select {
+		width: 82% !important;
+	}
+}
+
+
+@media (min-width: 461px) and (max-width: 940px) {
+	#footer .logo-detran {
+	    margin-left: 40%;
+		top: 100px;
+	}
+
+	#footer .logo-governosp {
+	    position: absolute;
+	    right: 25px;
+	    bottom: 25px;
+	}
+}
+
+
+@media (max-width: 460px){
+
+
+	.boxLinkTop {
+	    font-size: 13px;
+	}
+
+	.btn_top a {
+	    padding: 12px 11%;
+	    margin: 0 0 0 2px !important;
+	}
+
+	#footer .bg-bandeira {
+	    height: 285px;
+	}
+
+	#footer .bg_azul {
+	    height: 285px;
+	}
+
+	#footer .logo-detran {
+	    width: 100%;
+	    bottom: 120px;
+	    background-position: center;
+	}
+
+
+	#footer .logo-governosp {
+	    bottom: 30px;
+	    width: 100%;
+	    background-position: center;
+	}
+
+	#footer .social {
+	    margin: 0 0 0 15px;
+	}
+
+	#footer .social li {
+    	width: auto;
+    	margin: 0 0 0px 5px;
+    	text-align: center;
+ }
+
+	#footer .social li a {
+	    margin: 5px auto 5px auto;
+	    float: none;
+	}
+
+	#footer .social {
+	    top: -15px;
+   		position: relative;
+	}
+
+	#footer .links {
+	    top: 70px !important;
+	}
+}
+
+@media (max-width: 400px){
+    .imgLoginFace, .imgLoginNativo, .imgCadastro{
+        background-size: 95% !important;
+    }
+    .social-login .fb a {
+        background-size: 100% !important;
+        background-position-x: center;
+        background-position-y: 32% !important;
+    }
+}
+
+/*Extra*/
+@media (max-width: 380px){
+    .acesse a span {
+        float: right;
+    }
+}
+
+@media (max-width: 320px) {
+	.boxLinkTop {
+	    width: 100%;
+	    padding: 0 0px;
+	    font-size: 12px;
+	}
+
+	.btn_top .iconesTop a:first-child {
+	    left: -10px;
+	}
+
+	.btn_top .iconesTop a {
+	    padding: 12px 8%;
+	    margin: 0 0 0 10px !important;
+	}
+
+	#barrasp_nav form fieldset select {
+		width: 79% !important;
+	}
+
+	#header #logo {
+	    background-size: 100%;
+	}
+
+	.acesse {
+	    width: 98%;
+	}
+
+	.search-query {
+	    max-width: 70%;
+	    float: left;
+	}
+
+	#busca .input-append .btn-inverse {
+	    float: left;
+	}
+
+
+	#footer .logo-detran {
+	    width: 100%;
+	}
+
+	.introjs-tooltip {
+	    width: 178px !important;
+	    margin-left: -116px !important;
+	}
+	
+	.intro-js-checkbox p{
+		    float: left;
+	}
+	
+	.intro-js-checkbox {
+		top: -42px;
+    }
+}
+
+@media (max-width: 239px){
+	html {
+	    background: url(/DTRN/theme/imagens/not-mobile.png) no-repeat;
+	    background-position: center;
+	    background-size: 90%;
+	    height: 100%;
+	}
+
+	html body {
+		display: none;
+	}
+}	

@@ -1,0 +1,783 @@
+/******************************* Cadastro de Usuarios e Senha Forte *******************************/
+
+.custom-combobox{
+    position: relative;
+    display: inline-block;
+    }
+
+.custom-combobox-toggle{
+    position: absolute !important;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0 !important;
+    }
+
+.custom-combobox-input{
+    margin: 0;
+    padding: 5px 10px;  
+    width: 169px;
+    }
+
+.custom-combobox input, .custom-combobox a {
+    background: #fff ;
+    text-transform: uppercase !important;
+    }
+
+#ui-id-1 {
+    overflow-y: scroll;     
+    height: 200px;
+    }
+
+#divInformacoesFacebook {
+    display: none; 
+    margin-top: 10px;
+    }
+
+/********************* SENHA FORTE *************************/
+/*.label {
+    width:31%;
+    text-align:right; 
+    padding-right:5px;
+    padding-bottom:5px;
+    }*/
+    
+.label {
+    width: 53% !important;
+    text-align:right;
+    padding-right:5px;
+    padding-bottom:5px;
+    float: none !important;
+    }
+
+.boxSenhaForte label {
+    width: 100% !important;
+    /*height: 17px;*/
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    text-align: left;
+}
+    
+.campo {
+    height: 40px;
+    margin: 0 0 0 0;
+}
+
+.campo_combo{
+    padding-bottom: 10px !important;
+}
+
+.campo_erro {
+    list-style-type: none;
+    }       
+    
+#msgPersonalizada{
+    text-align: left !important;
+    }
+
+#msgPersonalizada a {
+    color: #0072BC;
+    font-weight: bold;
+    }   
+
+#msgPersonalizadaErro{
+    padding-left: 25px !important;
+    }
+
+/********************* VINCULAR CONTA FACEBOOK ***************************/
+.labelFacebook {
+    font-weight: bold;
+    }
+
+.nova-linha {
+    line-height: 26px;
+    }
+
+.tit-associar-contas {
+    line-height: 40px;
+    font-weight: bold;
+    }
+
+.tit-associar-contas td {
+    text-indent: 11px;
+    }
+
+.img-logo-facebook {
+    padding-top: 12px;
+    width: 35px;
+    text-indent: 11px;
+    line-height: 42px;
+    }
+
+.btn-controle-facebook {
+    text-align: center;
+    }
+
+.btn-controle-facebook a {
+    margin-bottom: 12px;
+    margin-left: 95px;
+    margin-right: 15px;
+    }
+
+.boxDestaqueFacebook {
+     margin: 10px 0px; 
+     padding: 0px 10px 10px; 
+     border: 1px solid rgb(204, 204, 204); 
+     background-color: rgb(240, 247, 255) !important; 
+     border-top-left-radius: 5px; 
+     border-top-right-radius: 5px; 
+     border-bottom-right-radius: 5px; 
+     border-bottom-left-radius: 5px;
+}
+
+
+/******************************* TELA LOGIN NOVA  ********************************/
+.contentCadastro {
+    margin-top: 15px;
+    width:940px;
+}
+
+.containerLogin{
+    margin-bottom: 25px;
+    float: right;
+}
+
+.containerLoginModal{
+    width: 970px;
+    //float: left;
+    //margin-right: -40px;
+}
+
+.alinhamentoModal{
+    float: left
+}
+
+.containerOpcaoModal{
+    width: 470px;
+    height: 170px;
+    background-color: #f5f6f7;
+    border-radius: 10px;
+    padding-top: 18px;
+}
+
+.containerCpfModal{
+    width: 288px;
+    height: 370px;
+    background-color: #f5f6f7;
+    border-radius: 10px;
+    padding: 20px 10px 0 10px;
+    margin-top: 20px;
+    margin-right: 4px;
+}
+.cpfPerguntasModal{
+    width: 288px;
+    padding: 0 0 0 0px;
+    margin-top: 8px;
+}  
+
+.areaLogarUsuario{
+    float: left;
+    width: 230px;
+    height: 80px;
+    margin-top: 25px;
+    margin-right: 3px;
+    border-right-style: dotted;
+    border-right-color: silver;
+    border-right-width: 1px;
+}
+
+.areaPerguntasUsuario{
+    float: left;
+    width: 230px;
+    height: 80px;
+    margin-top: 25px;
+}
+
+.btnLogarUsuario img{
+    height: 76px;    
+}
+
+.btnPerguntasUsuario img{
+    height: 74px;
+    padding-top: 4px;
+}
+
+.boxLoginFace{
+    width: 940px;
+    margin: 65px 0 0 0px;
+    height: 450px;
+}
+
+.boxLoginFaceModal{
+    text-align: left;
+    width: 940px;
+    margin: 5px 0 0 18px;
+}
+
+.boxLoginFaceModal .abcRioButtonBlue{
+    height: 40px !important;
+    width: 250px !important;
+    background-color: transparent !important;
+    margin-top: 5px !important;
+}
+
+.boxMensagemErro {
+    padding: 15px 0 0 7px;
+    }
+
+.msgLogin {
+    font-size: 16px;
+    }
+
+.loginFace{
+    background-color: #D6EBFE;
+    border-radius: 10px;
+    margin-right: 4px;
+    width: 288px;
+    height: 370px;
+    float: left;
+    padding: 20px 10px 0 10px;
+    margin-top: 15px;
+}
+
+.loginFace a{
+    padding-bottom: 7px;
+}
+
+.loginNativo{
+    margin-right: 4px;
+    background-color: #EAF4FE;
+    border-radius: 10px;
+    width: 288px;
+    height: 370px;
+    float: left;
+    padding: 20px 10px 0 10px;
+    margin-top: 15px;
+}
+
+.cadastroNativo{
+    background-color: #f5f6f7;
+    border-radius: 10px;
+    width: 288px;
+    height: 370px;
+    float: left;
+    padding: 20px 10px 0 10px;
+    margin-top: 15px;
+}
+
+.cadastroNativoModal{
+    background-color: #f5f6f7;
+    border-radius: 10px;
+    width: 288px;
+    height: 370px;
+    float: left;
+    padding: 20px 10px 0 10px;
+    margin-top: 15px;
+}
+
+.cadastroNativoModalMobile{
+    background-color: #f5f6f7;
+    border-radius: 10px;
+    width: 288px;
+    height: 370px;
+    padding: 20px 10px 0 10px;
+    margin: 15px auto;
+    text-align: center;
+}
+.imgLoginFace{
+    background: url(/DTRN/images/img_loginFace.png) no-repeat;
+    height: 80px;
+    background-size: 288px;
+}
+
+.imgCPF{
+    background: url(/DTRN/images/img_responder_cfc.png) no-repeat;
+    height: 80px;
+    background-size: 288px;
+}
+
+.imgLoginNativo{
+    background: url(/DTRN/images/img_login.png) no-repeat;
+    height: 80px;
+    background-size: 288px;
+}
+
+.imgCadastro{
+    background: url(/DTRN/images/img_cadastro.png) no-repeat;
+    height: 80px;
+    background-size: 288px;
+}
+
+.social-label{
+    padding: 5px 20px 5px 20px;
+}
+
+.social-login{
+    padding: 5px 20px 5px 20px;
+}
+
+.social-login .fb a {
+    background: url(/DTRN/images/iconGlyphSocial.png) 0 -103px no-repeat;
+    width: 255px;
+}
+
+.social-login a {
+    width: 100%;
+    height: 37px;
+    display: inline-block;
+    text-indent: -9999em;   
+    cursor: pointer;
+}
+
+.social-login span {display:block;}
+
+.socialImage {
+    margin-left: -5px !important;
+}
+
+.socialImageModal {
+    margin-top: 15px;
+    margin-left: -5px !important;
+}
+
+#divItSenha{
+    margin-top: 20px;
+}
+
+#divItBtn{
+    margin-top: 20px;
+}
+
+.numeroLogin, .senhaLogin, .numeroCadastro{
+    margin: 5px auto 0!important;
+}
+
+.btn-modern{
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    width: 150px;
+}
+
+.input-modern{
+    display: inline-block;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+    vertical-align: middle;
+    float: none;
+    margin-left: 0!important;
+    box-sizing: border-box;
+}
+
+ .form-group .esqueciMinhaSenha{
+    text-decoration: underline;
+    font-size: 11px;
+    display: block !important;
+    text-indent: inherit!important;
+    margin-top: 20px;
+    height:30px!important;
+    text-indent:0;
+}
+
+.alertCadastro{
+    margin-bottom: 0px !important;
+    margin-right: 10px;
+    background-color: #f5f6f7 !important;
+    border-color: #f5f6f7 !important;
+}
+
+.alertCadastroMobile{
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 10px;
+    background-color: #f5f6f7 !important;
+    border-color: #f5f6f7 !important;
+    text-align: center;
+}
+
+/********************* ETAPA *************************/
+#etapa_pag_two {
+    height: 36px;
+    clear: both;
+    padding: 0 0 0 35%;
+}
+
+ul#etapa_pag_two li.first {
+    background: none;
+}
+
+
+ul#etapa_pag_two li {
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url("/DTRN/images/traco_etapas.gif") no-repeat 0 0;
+    display: block;
+    padding: 8px 25px 8px 46px;
+    width: auto !important;
+}
+
+ul#etapa_pag_two li.inativo {
+    color: #999;
+    text-decoration: none;
+}
+
+#etapa_pag_three {
+    height: 36px;
+    clear: both;
+    padding: 0 0 0 26%;
+}
+
+ul#etapa_pag_three li.first {
+    background: none;
+}
+
+
+ul#etapa_pag_three li {
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url("/DTRN/images/traco_etapas.gif") no-repeat 0 0;
+    display: block;
+    padding: 8px 25px 8px 46px;
+    /*width: auto !important;*/
+    width: auto;    
+}
+
+ul#etapa_pag_three li.inativo {
+    color: #999;
+    text-decoration: none;
+}
+
+/******************************* TELA SENHA FORTE  ********************************/
+
+.contentDicaSenha{
+    width: 940px;
+    padding-left: 5px;
+    height: 455px;
+    margin-top: 30px;
+}
+
+.boxDicaSenha{
+    background-color: #D6EBFE;
+    border-radius: 10px;
+    margin-right: 4px;
+    width: 288px;
+    height: 370px;
+    float: left;
+    padding: 20px 10px 0 10px;
+    margin-top: 15px;
+}
+
+.boxNovaSenha{
+    margin-right: 4px;
+    background-color: #EAF4FE;
+    border-radius: 10px;
+    width: 288px;
+    height: 370px;
+    float: left;
+    padding: 20px 10px 0 10px;
+    margin-top: 15px;
+}
+
+.boxRecadastro{
+    background-color: #f5f6f7;
+    border-radius: 10px;
+    width: 288px;
+    height: 370px;
+    float: left;
+    padding: 20px 10px 0 10px;
+    margin-top: 15px;
+}
+
+.imgDicaSenha{
+    background: url(/DTRN/images/img_dicaSenha.png) no-repeat;
+    height: 80px;
+    background-size: 288px;
+}
+
+.imgNovaSenha{
+    background: url(/DTRN/images/img_novaSenha.png) no-repeat;
+    height: 80px;
+    background-size: 288px;
+}
+
+.imgRecadastro{
+    background: url(/DTRN/images/img_recadastro.png) no-repeat;
+    height: 80px;
+    background-size: 288px;
+}
+
+.imgEmailSucesso{
+    background: url(/DTRN/images/alert_sucess.gif) no-repeat;
+    background-position: -8px 4px;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+}
+
+.labelCentral{
+    padding: 14px 20px 5px 20px;
+}
+
+.labelEmailSucesso{
+    float: left;
+    text-align: left;
+    margin-left: 35px;
+    color: #1a9413;
+}
+
+.grupoForm{
+    padding: 14px 20px 5px 20px;
+}
+
+.boxDicaSenhaResultado{
+    background-color: #D6EBFE;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    width: 920px;
+    height: 140px;
+    float: left;
+    padding: 20px 10px 0 10px;
+    margin-top: 15px;
+    margin-right: 4px;
+    margin-bottom: 20px;
+}
+
+.boxNovaSenhaResultado{
+    background-color: #EAF4FE;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    width: 920px;
+    height: 140px;
+    float: left;
+    padding: 20px 10px 0 10px;
+    margin-top: 15px;
+    margin-right: 4px;
+    margin-bottom: 20px;
+}
+
+.boxSenhaForteResultado{
+    background-color: #f5f6f7;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    width: 920px;
+    float: left;
+    padding: 20px 10px 20px 10px;
+    margin-top: 15px;
+    margin-right: 4px;
+    margin-bottom: 20px;
+}
+
+.input-modernResultado{
+    text-align: center;
+    font-style: italic;
+    color: red;
+    margin: 10px 0 0 260px;
+}
+
+/********************* TELA CEP SENHA FORTE *************************/
+.alert li {
+    list-style-type: none;
+}
+    
+.recadastroCidadao{
+    width: 96%;
+    float: left;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #F5F6F7;
+    padding: 2%;
+    margin: 10px 0 10px 0;
+}
+
+.recadastroCidadao h1{
+    width: 100%;
+    font-size: 14px;
+}
+
+.rcEspaco{
+    padding-left: 5%;
+}
+
+.recadastroCidadaoColunas{          
+    width: 47%;
+    float: left;
+}
+
+.recadastroCidadaoColunas li{
+    padding: 5px 5px;
+    min-height: 30px;
+    list-style-type: none;
+}
+
+.comboBuscaPersonalizada{
+    width: 96%;
+    float: left;
+    margin: 0 0 5px 0;
+}
+
+.boxCpfDicaSenha {
+    background-color: #D6EBFE;
+    border-radius: 10px;    
+    width: 99%;
+    height: 55px;
+}
+
+.divCpfDicaSenhaCentral {      
+    float: left;
+    margin-left: 220px;    
+}
+    
+.radioCep{
+    margin-top: 2px;
+    position: absolute;
+}
+
+.radioLogradouro{
+    /*float: left;*/
+    text-align: left;
+    margin-left: 20px;
+}
+
+#msgObrigatorios a {
+    color: #0072BC;
+    font-weight: bold;
+}
+
+.contentFail{
+    min-height:  235px !important;
+    margin-bottom: 0px !important;
+}
+
+
+/*-------------------------------Icones Logar Facebook e Google------------------------------*/
+
+.g-signin2{
+    position: absolute !important;
+    margin: -48px 0 0 -2px !important;
+}
+
+.social-login a {
+    height: 87px !important;
+}
+
+.abcRioButtonBlue {
+    height: 30px !important;
+    width: 155px !important;
+    background-color: transparent !important;
+    background: none !important;
+    box-shadow: none !important;
+}
+
+.abcRioButtonBlue:hover {
+    background-color: none !important;
+    background: none !important;
+    box-shadow: none !important;
+}
+
+.abcRioButtonContentWrapper{
+    display: none !important;
+}
+
+/* -----------------------------Botao vinculacao Facebook e Gmail ---------------------------*/
+
+.btn-controle-facebook a {
+    margin-bottom: 12px;
+    margin-left: 170px;
+    margin-right: 15px;
+    width: 129px;
+}
+
+.btn-controle-facebook .g-signin2 {
+    position: absolute !important;
+    margin: 0 0 0 118px !important;
+    width: 155px;
+}
+
+.btn-controle-facebook .btn {
+  display: inline-block;
+  *display: inline;
+  padding: 4px 12px;
+    *padding:4px 6px; /* hack ie7 */
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  text-align: center;
+  /*text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);*/
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #F2F2F2;
+  *background-color: #EEE;  
+  border: 1px solid #cccccc;
+  *border: 0;
+  *zoom: 1;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+   float:right;
+}
+
+.btn-controle-facebook .btn:hover,
+.btn-controle-facebook .btn:focus,
+.btn-controle-facebook .btn:active,
+.btn-controle-facebook .btn.active,
+.btn-controle-facebook .btn.disabled,
+.btn-controle-facebook .btn[disabled] {
+  color: #333333;
+  background-color: #F2F2F2
+  *background-color: #F2F2F2
+}
+
+.btn-controle-facebook .btn:active,
+.btn-controle-facebook .btn.active {
+  background-color: #F2F2F2 \9;
+}
+
+.btn-controle-facebook .btn:first-child {
+  *margin-left: 0;
+}
+
+.btn-controle-facebook .btn:hover,
+.btn-controle-facebook .btn:focus {
+  color: #333333;
+  text-decoration: none;
+  background-position: 0 0;
+}
+
+.btn-controle-facebook .btn:focus {
+  outline: none;
+  outline: none;
+  outline-offset: none;
+}
+
+.btn-controle-facebook .btn.active,
+.btn-controle-facebook .btn:active {
+  background-image: none;
+  outline: 0;
+}
+
+.btn-controle-facebook .btn.disabled,
+.btn-controle-facebook .btn[disabled] {
+  cursor: default;
+  background-image: none;
+  opacity: none;
+  filter: none;
+}
